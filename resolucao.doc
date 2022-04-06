@@ -1,0 +1,49 @@
+PROBLEMA: Vamos iniciar o projeto dessa semana sprint! A aplicação que será desenvolvida consiste em
+um codificador/decodificador de cifra de césar e base64.
+    Em uma nova pasta, com arquivos HTML, CSS e JS:
+● Crie um formulário que receberá os dados para codificar e decodificar uma mensagem
+    utilizando cifra de césar e base64. Seu formulário deve ter:
+○ Um campo de entrada da mensagem do tipo texto
+○ Um campo de seleção com as opções cifra de césar e Base64. Quando cifra de césar
+estiver selecionado, um outro campo deve surgir no formulário, no qual o
+incremento utilizado na cifra deverá ser informado
+    ○ Duas entradas radiais (radio buttons) com os textos: “codificar” e “decodificar”
+○ Um botão que, com “codificar” selecionado exibe “Codificar Mensagem!” e com
+“decodificar” selecionado exibe “Decodificar Mensagem!”
+
+    ENTENDER:
+        Quais são as informações de entrada?
+            - texto a ser codificado/descodificado
+
+        O que preciso retornar?
+            - a criptografia
+
+        Como retornar?
+           - mostrar em caixa de texto
+
+    PLANEJAR:
+        Quais ferramentas (métodos) eu tenho para usar?
+        - forms
+        - variaveis
+        - array
+        - for
+        - if
+        - DOM
+    
+    DIVIDIR:
+        - Definir pelo menos 4 etapas de desenvolvimento:
+
+        - Criar uma função para executar o script:
+            - criar uma function calculaMediaDaSala
+
+        - Receber informações:
+            - dentro da function:
+                - criar var notasDosAlunos que vai receber um prompt perguntando as notas
+                - criar var qtdDeAlunos que vai receber um prompt perguntando a qtd de alunos
+
+        - Processar informações:
+           - criar um for que vai de 0 até o qtdDeAlunos
+           - Cria a condição do for: enquanto var controladora for menor que a quantidade de alunos, a var controladore recebe + 1
+            
+        - Retornar informações:
+            
