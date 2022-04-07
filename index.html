@@ -10,20 +10,21 @@
     <main>
         <form>
             <section>
-                <input type="radio" name="opc" id="cripto">Criptografar
-                <input type="radio" name="opc" id="dCripto">Descriptografar
+                <input type="radio" name="opc" id="cript" value="cript">Criptografar
+                <input type="radio" name="opc" id="dCript" value="dCript">Descriptografar
             </section>
 
-            <input type="text" id="codigo">
+            <input type="text" id="entrada">
 
-            <section>
-                <input type="radio" name="tpcrip" id="cesar"> Cifra de césar 
-                <!-- pedir passo/incremento no cesar -->
-                <input type="radio" name="tpcrip" id="base"> Base64
+            <select name="Cifra" id="cifra">
+                <option id="c" value="cifraCesar">Cifra de César</option>
+                <option id="b" value="base64">Base64</option>
+            </select>
+            <input type="number" name="passo" id="passo" min="1">incremento
 
-            </section>
-
-            <input type="submit" id="submit"> 
+            <input type="submit" id="submit" value="code"> 
+            
+            <textarea name="saida" id="saida" ></textarea>
             
           
         </form>
