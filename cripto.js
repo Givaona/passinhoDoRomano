@@ -23,10 +23,6 @@ submit.addEventListener('click', function(event){
     } 
 });
     
-// submit.addEventListener('click', function(event){
-//     event.preventDefault();
-// } )
-
 var arrSaida = [];
 
 function cesar(passo, arrTexto) {

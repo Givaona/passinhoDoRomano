@@ -1,0 +1,38 @@
+body{
+    background-image: url(../img/hack.gif);
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textBox{
+    background-color: black;
+    width: 400px;
+    height: 150px;
+    font-size: 10x;
+    color: green;
+    
+}
+
+#passo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+    color: green;
+
+    border-radius: 30px;
+}
+
+
+#conteinerBoxText{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}

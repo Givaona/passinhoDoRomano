@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/87106.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/mQuery.css">
+    
     <title>Encriptador</title>
 </head>
 <body>
@@ -13,19 +18,24 @@
                 <input type="radio" name="opc" id="cript" value="cript">Criptografar
                 <input type="radio" name="opc" id="dCript" value="dCript">Descriptografar
             </section>
-
-            <input type="text" id="entrada">
-
+            
             <select name="Cifra" id="cifra">
                 <option id="c" value="cifraCesar">Cifra de César</option>
                 <option id="b" value="base64">Base64</option>
             </select>
-            <input type="number" name="passo" id="passo" min="1">incremento
+            
+            <section id="passo">
+                <h5>passo</h5>
+                <input type="number" name="passo" id="passo" min="1">
+            </section>
+            
+            <section id="conteinerBoxText">
+                <input type="text" id="entrada" class="textBox">
+                <textarea name="saida" id="saida" class="textBox"> output!</textarea>
+            </section>
 
             <input type="submit" id="submit" value="code"> 
-            
-            <textarea name="saida" id="saida" ></textarea>
-            
+                        
           
         </form>
     </main>
