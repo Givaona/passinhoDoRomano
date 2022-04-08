@@ -13,7 +13,7 @@ body{
     align-items:center ;
 }
 form{
-    width: 100%;
+    width: 900px;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -21,13 +21,14 @@ form{
 }
 
 .textBox{
-    background-color: rgb(54, 53, 53);
+    /* background-color: rgb(70, 67, 67); */
     width: 400px;
     height: 150px;
 
     text-align: justify;
     font-size: 10x;
-    color: green;
+    
+    margin: 20px;
     
 }
 #submit{
@@ -50,10 +51,16 @@ form{
     border: solid 3px;
     border-color: green;
 }
-#opcoes{
+ h3{
+     margin-left: 10px;
+ }
+#opcoes, .conteinerOpc{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 
+}
+#botao{
+    margin: 20px;
 }
 #passo, #botao{
     display: flex;
@@ -64,6 +71,6 @@ form{
 #conteinerBoxText{
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
