@@ -1,38 +1,69 @@
-body{
-    background-image: url(../img/hack.gif);
-
+*{
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
 }
-form{
+
+body{
+    /* background: rgb(0, 0, 0, 60%); */
+    background-image: url(../img/hack.gif);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items:center ;
+}
+form{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .textBox{
-    background-color: black;
+    background-color: rgb(54, 53, 53);
     width: 400px;
     height: 150px;
+
+    text-align: justify;
     font-size: 10x;
     color: green;
     
 }
-
-#passo{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    background-color: black;
-    color: green;
-
-    border-radius: 30px;
+#submit{
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+ 
+    border: solid 5px;
+    border-radius: 10px;
+}
+#submit:hover{
+    background-color: green;
+    color: black;
+    border: none;
 }
 
+#cifra, #opcoes, #passo, #submit{
+    color: green;
+    background-color: black;
+    border: solid 3px;
+    border-color: green;
+}
+#opcoes{
+    display: flex;
+    justify-content: center;
 
+}
+#passo, #botao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
 #conteinerBoxText{
     width: 100%;
     display: flex;
     justify-content: space-around;
+
 }

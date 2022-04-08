@@ -7,15 +7,15 @@ var descriptografar = document.getElementById("dCript")
 
 submit.addEventListener('click', function(event){
     event.preventDefault();
-
+    
     var passo = parseInt(document.querySelector("#passo").value);
-    var entrada = document.querySelector("#entrada")
+    var entrada = document.querySelector("#entrada");
     var arrTexto = entrada.value.split("");
     var saida = document.querySelector("#saida");
     console.log(arrTexto);
     
     var option = document.querySelector("#option")
-
+    
     if (selectCrip.value=="cifraCesar") {
         cesar(passo, arrTexto);
     } else if(selectCrip.value=="base64"){

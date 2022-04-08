@@ -14,9 +14,11 @@
 <body>
     <main>
         <form>
-            <section>
-                <input type="radio" name="opc" id="cript" value="cript">Criptografar
-                <input type="radio" name="opc" id="dCript" value="dCript">Descriptografar
+            <section id="opcoes">
+                <input type="radio" name="opc" id="cript" value="cript">
+                <h3>Criptografar  </h3> 
+                <input type="radio" name="opc" id="dCript" value="dCript"> 
+                <h3>Descriptografar</h3>
             </section>
             
             <select name="Cifra" id="cifra">
@@ -26,7 +28,7 @@
             
             <section id="passo">
                 <h5>passo</h5>
-                <input type="number" name="passo" id="passo" min="1">
+                <input type="number" name="passo" id="passo" min="0">
             </section>
             
             <section id="conteinerBoxText">
@@ -34,7 +36,9 @@
                 <textarea name="saida" id="saida" class="textBox"> output!</textarea>
             </section>
 
-            <input type="submit" id="submit" value="code"> 
+            <div id="botao">
+                <input type="submit" id="submit" value="code"> 
+            </div>
                         
           
         </form>
